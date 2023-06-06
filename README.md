@@ -23,8 +23,7 @@ Are there then groups in our data on counties and unemployment rate that may she
 Based on California city data, where cities experienced historic unemployment rates __higher__ than the pandemic, we will explore level of education and create a baseline for analysis. <br> 
 
 For cities that experience higher unemployment rates outside of the expected (2020's pandemic), we will graph unemployment rate, education level, and predictive model for future recommendations. <br> 
-
-## Where would the $ potentially come from to fund this endeavor? 
+ 
 
 
 
