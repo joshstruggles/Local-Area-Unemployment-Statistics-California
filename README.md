@@ -2,10 +2,19 @@
 
 ## Dataset 
 
+Local Area Unemployment Statistics pulled from ca.gov website details a significant amount of information, the most important being: <br>
+
+- Date <br> 
+- Year <br> 
+- Month <br> 
+- Labor Force <br> 
+- Employment <br> 
+- Unemployment <br> 
+- Unemployment Rate <br>
+
+
 __['Local Area Unemployment Statistics'](https://data.ca.gov/dataset/local-area-unemployment-statistics-laus)__  current as of March, 2023. <br> 
 
-__['DFA256 - Food Stamp Program Participation and Benefit Issuance Report'](https://data.ca.gov/dataset/dfa256-food-stamp-program-participation-and-benefit-issuance-report)__ current as of May 16, 2023. 
-<br>
 
 |index|Area Type|Area Name|Date|Year|Month|Seasonally Adjusted \(Y/N\)|Status \(Preliminary / Final\)|Labor Force|Employment|Unemployment|Unemployment Rate|
 |---|---|---|---|---|---|---|---|---|---|---|---|
