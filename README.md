@@ -7,6 +7,14 @@ __['Local Area Unemployment Statistics'](https://data.ca.gov/dataset/local-area-
 __['DFA256 - Food Stamp Program Participation and Benefit Issuance Report'](https://data.ca.gov/dataset/dfa256-food-stamp-program-participation-and-benefit-issuance-report)__ current as of May 16, 2023. 
 <br>
 
+|index|Area Type|Area Name|Date|Year|Month|Seasonally Adjusted \(Y/N\)|Status \(Preliminary / Final\)|Labor Force|Employment|Unemployment|Unemployment Rate|
+|---|---|---|---|---|---|---|---|---|---|---|---|
+|0|State|California|01/01/1976|1976|January|N|Final|9672362|8668016|1004346|0\.104|
+|1|State|California|01/01/1976|1976|January|Y|Final|9774280|8875685|898595|0\.092|
+|2|County|Los Angeles County|01/01/1976|1976|January|N|Final|3364151|3040058|324093|0\.096|
+|3|County|Los Angeles County|01/01/1976|1976|January|Y|Final|3381856|3081806|300050|0\.089|
+|4|Metropolitan Area|Los Angeles-Long Beach-Glendale MD|01/01/1976|1976|January|N|Final|3364151|3040058|324093|0\.096|
+
 ## Business Problem
 
 According to a recent article posted on what could be considered America's most uncelebrated holiday __['National Skilled Trades Day'](https://gvwire.com/2023/05/02/on-national-skilled-trades-day-americas-labor-shortage-looms/)__, there is a high need for skilled labor in the job market. Specifically, these are blue collar jobs in the trades (carpentry, HVAC, iron work, sheet metal, and aviation). There is a growing sentiment in the United States that there aren't people willing to work, but according to the article by Elen  Theodossiou and Steven F. Hipple, __['Unemployment remains high in 2010'](https://www.bls.gov/opub/mlr/2011/03/art1full.pdf)__, __"Workers with less education continued to experience a substantially higher unemployment rate than did better educated members of the labor force."__(4)
@@ -26,10 +34,15 @@ With this data we can carefully craft the skeleton of a 6-month educational prog
 
 Ultimately, the reason for making these suggestions is to help improve the __[living conditions](https://www.hcd.ca.gov/planning-and-community-development/housing-elements/building-blocks/farmworkers)__ and occupational opportunities of skilled laborers in the agricultural field. <br> 
 
+<center><img src = 'pics/fresno_best_model.png'></center>
+<center>RNN (LSTM) Prediction on Test Data / Fresno County</center>
+
 ### College Educational Programs and Community College opportunties for trades and beyond
 
 The reason for proposing trade school opportunities primarily is that there is a significantly smaller amount of __[training to deployment](https://toptrade.school/how-long-does-trade-school-take/)__ than traditional four year schools, something to the tune of 6 months to a year for a full time student. Since our proposal is for off-season migrant and farm workers who would be able to take advantage of these programs during the off-season, time is a crucial factor. From here however, once given the ability to rise financially and educationally, our educated workforce would be able to improve living conditions and explore other educational opportunities.   
  
+<center><img src = 'pics/fresno_county_unemployment.png'></center>
+<center>Predictive model of Fresno County Unemployment Rate</center>
 
 ### Limitations of the data and information available
 
